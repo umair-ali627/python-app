@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return jsonify({
-        "message": "Python/Flask! Welcome to the Advanced Flask App on /python using port 8888!",
+        "message": "Python! Welcome to the Advanced Flask App on /python using port 8888!",
         "timestamp": datetime.datetime.utcnow().isoformat() + "Z"
     })
 
